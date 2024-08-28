@@ -1,6 +1,6 @@
 # BlogPost
 
-A blog application built with Express.js, Node.js, and MongoDB using the MVC architecture. This application supports user authentication, allowing users to register, log in, and create blog posts. Posts are dynamically updated on the page and include the author's name and the date.
+A blog application built with Express.js, Node.js, and MongoDB using the MVC architecture. This application supports user authentication, allowing users to register, log in, and create blog posts. Posts are dynamically updated on the page, including the author's name and date.
 
 ## Features
 
@@ -31,7 +31,7 @@ A blog application built with Express.js, Node.js, and MongoDB using the MVC arc
    
 3. **Configure your MongoDB database:**
  
-   Replace process.env.MONGO_URI in index.js with your MongoDB connection string, or create a      .env file in the root folder with the following content:
+   Replace process.env.MONGO_URI in index.js with your MongoDB connection string, or create a .env file in the root folder with the following content:
    ```env
    MONGO_URI=your_database_uri
 
@@ -60,6 +60,18 @@ The server will be running at http://localhost:4000.
 ## Contributing
 
 Feel free to open issues or submit pull requests if you have suggestions or improvements.
+
+### Credits
+
+This project uses an HTML and CSS template provided by [start bootstrap](https://startbootstrap.com/theme/clean-blog). The original template was designed for static websites, and I have extended it by making it a dynamic and full-stack website using **Express.js**, **Node.js**, and **MongoDB**.
+
+- **Original Template**: [Start Bootstrap](https://startbootstrap.com/theme/clean-blog)
+- **Customizations**:
+  - **Express.js**: Added for handling backend routing.
+  - **Node.js**: Powers the server-side logic for scalability and efficiency.
+  - **MongoDB**: Integrated to manage and store dynamic data.
+
+Thank you to [Start BootStrap](https://startbootstrap.com/) for providing the foundational design that made this project possible.
 
 ---
 
