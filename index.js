@@ -6,7 +6,9 @@ const authMiddleware = require('./middleware/authMiddleware.js');
 const flash = require('connect-flash');
 require('dotenv').config();
 
-mongoose.connect(process.env.MONGO_URI);
+const PORT = process.env.MONGO_URI;
+
+mongoose.connect(PORT, console.log('App listening on port: ', PORT));
 
 const app = new express();
 
